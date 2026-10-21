@@ -84,7 +84,8 @@ python -m venv .venv
 
 - 核心框架和 mock adapter：测试通过；
 - 本机 Windows 缺少 MSVC C++ 工具链，`deepseek-recipe` 官方 Python binding 无法在本地从 sdist 构建；
-- CI 的 `official` job 在 Ubuntu 安装 Rust、Clang 和 OpenCV 后执行官方 adapter 测试。
+- CI 的 `official` job 已在 Ubuntu 安装 Rust、Clang 和 OpenCV 并成功执行官方 adapter 测试。
+- 验证运行：https://github.com/lihaoran0314/deepseek-recipe-conformance-kit/actions/runs/39524688771
 
 本地缺少官方 binding 时，`tests/test_official_adapter.py` 会跳过，不会被误报为通过。
 
