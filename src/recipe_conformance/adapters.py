@@ -54,7 +54,12 @@ class OfficialPythonAdapter:
         )
         for piece in plan.pieces:
             events.extend(processor.push(recipe.InferenceChunk.text(piece, token_count=len(piece))))
-        finish_reason = getattr(recipe.InferenceFinishReason, fixture.finish_reason)
+        finish_reason_names = {
+            "stop": "Stop",
+            "length": "Length",
+            "content_filter": "ContentFilter",
+        }
+        finish_reason = getattr(recipe.InferenceFinishReason, finish_reason_names[fixture.finish_reason])
         events.extend(processor.push(recipe.InferenceChunk.finish(finish_reason)))
         events.extend(processor.finish())
         return [_event_to_json(event) for event in events]
