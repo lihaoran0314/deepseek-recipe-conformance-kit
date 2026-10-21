@@ -21,7 +21,7 @@ def test_official_adapter_runs_when_deepseek_recipe_is_installed() -> None:
         },
         model="DeepSeek-V4.1-Flash",
         model_text="Hello, world!",
-        mode="chunk_transparent",
+        mode="semantic_transparent",
         issue_refs=("deepseek-recipe#28",),
     )
     report = run_conformance([fixture], OfficialPythonAdapter(), seed=3, random_split_samples=2)

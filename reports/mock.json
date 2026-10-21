@@ -15,8 +15,8 @@
           "passed": true
         },
         {
-          "detail": "all split plans produced identical normalized events",
-          "name": "chunk_transparent",
+          "detail": "all split plans produced identical semantic text",
+          "name": "semantic_transparent",
           "passed": true
         }
       ],
@@ -24,7 +24,7 @@
       "issue_refs": [
         "deepseek-recipe#28"
       ],
-      "mode": "chunk_transparent",
+      "mode": "semantic_transparent",
       "notes": "",
       "passed": true,
       "protocol": "chat_completions",
@@ -261,8 +261,8 @@
           "passed": true
         },
         {
-          "detail": "all split plans produced identical normalized events",
-          "name": "chunk_transparent",
+          "detail": "all split plans produced identical semantic text",
+          "name": "semantic_transparent",
           "passed": true
         }
       ],
@@ -270,7 +270,7 @@
       "issue_refs": [
         "deepseek-recipe#28"
       ],
-      "mode": "chunk_transparent",
+      "mode": "semantic_transparent",
       "notes": "",
       "passed": true,
       "protocol": "responses",
@@ -633,8 +633,8 @@
           "passed": true
         },
         {
-          "detail": "all split plans produced identical normalized events",
-          "name": "chunk_transparent",
+          "detail": "all split plans produced identical semantic text",
+          "name": "semantic_transparent",
           "passed": true
         }
       ],
@@ -642,7 +642,7 @@
       "issue_refs": [
         "deepseek-recipe#28"
       ],
-      "mode": "chunk_transparent",
+      "mode": "semantic_transparent",
       "notes": "",
       "passed": true,
       "protocol": "messages",
@@ -1464,8 +1464,8 @@
           "passed": true
         },
         {
-          "detail": "all split plans produced identical normalized events",
-          "name": "chunk_transparent",
+          "detail": "all split plans produced identical semantic text",
+          "name": "semantic_transparent",
           "passed": true
         }
       ],
@@ -1473,7 +1473,7 @@
       "issue_refs": [
         "deepseek-recipe#28"
       ],
-      "mode": "chunk_transparent",
+      "mode": "semantic_transparent",
       "notes": "",
       "passed": true,
       "protocol": "chat_completions",
@@ -1691,8 +1691,8 @@
           "passed": true
         },
         {
-          "detail": "all split plans produced identical normalized events",
-          "name": "chunk_transparent",
+          "detail": "all split plans produced identical semantic text",
+          "name": "semantic_transparent",
           "passed": true
         }
       ],
@@ -1700,7 +1700,7 @@
       "issue_refs": [
         "deepseek-recipe#28"
       ],
-      "mode": "chunk_transparent",
+      "mode": "semantic_transparent",
       "notes": "",
       "passed": true,
       "protocol": "chat_completions",

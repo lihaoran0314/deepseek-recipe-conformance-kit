@@ -9,7 +9,7 @@
       "stream": true
     },
     "model_text": "Hello, 世界!\nDone.",
-    "mode": "chunk_transparent",
+    "mode": "semantic_transparent",
     "issue_refs": ["deepseek-recipe#28"]
   },
   {
@@ -21,7 +21,7 @@
       "stream": true
     },
     "model_text": "Response output with a short tail.",
-    "mode": "chunk_transparent",
+    "mode": "semantic_transparent",
     "issue_refs": ["deepseek-recipe#28"]
   },
   {
@@ -34,7 +34,7 @@
       "stream": true
     },
     "model_text": "Anthropic-style response text.",
-    "mode": "chunk_transparent",
+    "mode": "semantic_transparent",
     "issue_refs": ["deepseek-recipe#28"]
   },
   {
@@ -77,7 +77,7 @@
       "stream": true
     },
     "model_text": "",
-    "mode": "chunk_transparent",
+    "mode": "semantic_transparent",
     "issue_refs": ["deepseek-recipe#28"]
   },
   {
@@ -104,7 +104,7 @@
       "stream": true
     },
     "model_text": "alpha\nβeta\nγamma\nDSML-like <\u002f\ufe4f> text\nend",
-    "mode": "chunk_transparent",
+    "mode": "semantic_transparent",
     "issue_refs": ["deepseek-recipe#28"]
   }
 ]

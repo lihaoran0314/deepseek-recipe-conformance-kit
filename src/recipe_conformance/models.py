@@ -7,7 +7,7 @@ from dataclasses import asdict, dataclass, field
 from typing import Any, Literal
 
 Protocol = Literal["chat_completions", "responses", "messages"]
-ScenarioMode = Literal["chunk_transparent", "chunk_dependent_contract", "end_of_stream"]
+ScenarioMode = Literal["chunk_transparent", "semantic_transparent", "chunk_dependent_contract", "end_of_stream"]
 
 
 @dataclass(frozen=True, slots=True)

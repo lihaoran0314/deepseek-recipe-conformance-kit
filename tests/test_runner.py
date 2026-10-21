@@ -43,3 +43,13 @@ def test_end_of_stream_check_requires_replacement_character() -> None:
         random_split_samples=3,
     )
     assert report.passed is True
+
+
+def test_semantic_transparent_ignores_chunk_boundaries() -> None:
+    report = run_conformance(
+        [_fixture(mode="semantic_transparent")],
+        ChunkEchoMockAdapter(),
+        seed=7,
+        random_split_samples=5,
+    )
+    assert report.passed is True

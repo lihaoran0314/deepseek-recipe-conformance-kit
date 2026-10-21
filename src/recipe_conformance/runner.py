@@ -33,6 +33,26 @@ def event_text(events: list[Any]) -> str:
     return json.dumps(normalize_events(events), ensure_ascii=False, sort_keys=True)
 
 
+def semantic_projection(events: list[Any]) -> str:
+    """Join protocol text deltas while ignoring event boundaries and metadata."""
+    text_keys = {"content", "text", "reasoning_content", "arguments", "partial_json", "delta"}
+    parts: list[str] = []
+
+    def visit(value: Any) -> None:
+        if isinstance(value, dict):
+            for key, item in value.items():
+                if key in text_keys and isinstance(item, str):
+                    parts.append(item)
+                else:
+                    visit(item)
+        elif isinstance(value, list):
+            for item in value:
+                visit(item)
+
+    visit(normalize_events(events))
+    return "".join(parts)
+
+
 def run_scenario(
     fixture: StreamFixture,
     adapter: StreamAdapter,
@@ -72,6 +92,18 @@ def run_scenario(
                 "chunk_transparent",
                 not mismatches,
                 "all split plans produced identical normalized events"
+                if not mismatches
+                else f"mismatched split plans: {', '.join(mismatches[:8])}",
+            )
+        )
+    elif fixture.mode == "semantic_transparent" and not errors:
+        baseline_text = semantic_projection(runs[0].events)
+        mismatches = [run.plan.label for run in runs[1:] if semantic_projection(run.events) != baseline_text]
+        checks.append(
+            CheckResult(
+                "semantic_transparent",
+                not mismatches,
+                "all split plans produced identical semantic text"
                 if not mismatches
                 else f"mismatched split plans: {', '.join(mismatches[:8])}",
             )

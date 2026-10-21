@@ -21,8 +21,9 @@
 - 逐字符分块；
 - 固定种子的随机 k-way 分块；
 - 输出事件规范化与 SHA-256 digest；
-- 三种检查模式：
-  - `chunk_transparent`：不同分块必须产生相同规范化输出；
+- 四种检查模式：
+  - `chunk_transparent`：不同分块必须产生相同规范化事件；
+  - `semantic_transparent`：允许事件边界变化，但拼接后的文本内容必须一致；
   - `chunk_dependent_contract`：允许按契约依赖分块，但输出必须有效；
   - `end_of_stream`：流结束时不得丢失 U+FFFD 等缓冲内容；
 - 官方 Python binding adapter；
@@ -59,7 +60,7 @@ python -m venv .venv
   "request": {},
   "model": "DeepSeek-V4.1-Flash",
   "model_text": "Hello, 世界!",
-  "mode": "chunk_transparent",
+  "mode": "semantic_transparent",
   "issue_refs": ["deepseek-recipe#28"]
 }
 ```
