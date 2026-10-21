@@ -1,0 +1,110 @@
+[
+  {
+    "id": "chat-plain-unicode",
+    "protocol": "chat_completions",
+    "request": {
+      "model": "DeepSeek-V4.1-Flash",
+      "messages": [{"role": "user", "content": "Say hello"}],
+      "thinking": {"type": "disabled"},
+      "stream": true
+    },
+    "model_text": "Hello, 世界!\nDone.",
+    "mode": "chunk_transparent",
+    "issue_refs": ["deepseek-recipe#28"]
+  },
+  {
+    "id": "responses-plain",
+    "protocol": "responses",
+    "request": {
+      "model": "DeepSeek-V4.1-Flash",
+      "input": [{"role": "user", "content": [{"type": "input_text", "text": "Say hello"}]}],
+      "stream": true
+    },
+    "model_text": "Response output with a short tail.",
+    "mode": "chunk_transparent",
+    "issue_refs": ["deepseek-recipe#28"]
+  },
+  {
+    "id": "messages-plain",
+    "protocol": "messages",
+    "request": {
+      "model": "DeepSeek-V4.1-Flash",
+      "max_tokens": 64,
+      "messages": [{"role": "user", "content": "Say hello"}],
+      "stream": true
+    },
+    "model_text": "Anthropic-style response text.",
+    "mode": "chunk_transparent",
+    "issue_refs": ["deepseek-recipe#28"]
+  },
+  {
+    "id": "stop-sequence-contract",
+    "protocol": "chat_completions",
+    "request": {
+      "model": "DeepSeek-V4.1-Flash",
+      "messages": [{"role": "user", "content": "Stop test"}],
+      "thinking": {"type": "disabled"},
+      "stop": ["END"],
+      "stream": true
+    },
+    "model_text": "beforeENDafter",
+    "mode": "chunk_dependent_contract",
+    "issue_refs": ["deepseek-recipe#28"],
+    "notes": "Usage may count the source chunk containing the stop sequence."
+  },
+  {
+    "id": "json-mode-contract",
+    "protocol": "chat_completions",
+    "request": {
+      "model": "DeepSeek-V4.1-Flash",
+      "messages": [{"role": "user", "content": "Return JSON"}],
+      "thinking": {"type": "disabled"},
+      "response_format": {"type": "json_object"},
+      "stream": true
+    },
+    "model_text": "{\"a\": 1}\n{\"b\": 2}",
+    "mode": "chunk_dependent_contract",
+    "issue_refs": ["deepseek-recipe#10", "deepseek-recipe#14", "deepseek-recipe#28"],
+    "notes": "v0.2 defines one space per source chunk for replaced JSON whitespace runs."
+  },
+  {
+    "id": "empty-chunks",
+    "protocol": "chat_completions",
+    "request": {
+      "model": "DeepSeek-V4.1-Flash",
+      "messages": [{"role": "user", "content": "Empty chunk test"}],
+      "thinking": {"type": "disabled"},
+      "stream": true
+    },
+    "model_text": "",
+    "mode": "chunk_transparent",
+    "issue_refs": ["deepseek-recipe#28"]
+  },
+  {
+    "id": "end-of-stream-u-fffd",
+    "protocol": "chat_completions",
+    "request": {
+      "model": "DeepSeek-V4.1-Flash",
+      "messages": [{"role": "user", "content": "Replacement character test"}],
+      "thinking": {"type": "disabled"},
+      "stream": true
+    },
+    "model_text": "prefix-\ufffd",
+    "mode": "end_of_stream",
+    "issue_refs": ["deepseek-recipe#16", "deepseek-recipe#28"],
+    "notes": "Text ending in U+FFFD must not remain buffered forever in StreamDecoder."
+  },
+  {
+    "id": "long-mixed-text",
+    "protocol": "chat_completions",
+    "request": {
+      "model": "DeepSeek-V4.1-Flash",
+      "messages": [{"role": "user", "content": "Split coverage"}],
+      "thinking": {"type": "disabled"},
+      "stream": true
+    },
+    "model_text": "alpha\nβeta\nγamma\nDSML-like <\u002f\ufe4f> text\nend",
+    "mode": "chunk_transparent",
+    "issue_refs": ["deepseek-recipe#28"]
+  }
+]

@@ -1,0 +1,2104 @@
+{
+  "adapter": "joined-text-mock",
+  "random_split_samples": 12,
+  "scenarios": [
+    {
+      "checks": [
+        {
+          "detail": "0 failed split plans",
+          "name": "split_reconstructs_text",
+          "passed": true
+        },
+        {
+          "detail": "all runs executed",
+          "name": "all_runs_execute",
+          "passed": true
+        },
+        {
+          "detail": "all split plans produced identical normalized events",
+          "name": "chunk_transparent",
+          "passed": true
+        }
+      ],
+      "fixture_id": "chat-plain-unicode",
+      "issue_refs": [
+        "deepseek-recipe#28"
+      ],
+      "mode": "chunk_transparent",
+      "notes": "",
+      "passed": true,
+      "protocol": "chat_completions",
+      "runs": [
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 1,
+          "plan": "whole"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@0"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@1"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@2"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@3"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@4"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@5"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@6"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@7"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@8"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@9"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@10"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@11"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@12"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@13"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@14"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@15"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 2,
+          "plan": "two-way@16"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 16,
+          "plan": "char-by-char"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 8,
+          "plan": "random-0@[0, 5, 6, 10, 11, 12, 14]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 8,
+          "plan": "random-1@[0, 3, 6, 7, 12, 14, 15]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 8,
+          "plan": "random-2@[1, 6, 7, 11, 14, 15, 16]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 8,
+          "plan": "random-3@[1, 2, 8, 9, 12, 13, 14]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 8,
+          "plan": "random-4@[0, 1, 2, 3, 4, 11, 14]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 8,
+          "plan": "random-5@[0, 4, 5, 8, 9, 11, 13]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 8,
+          "plan": "random-6@[1, 2, 3, 4, 7, 13, 16]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 8,
+          "plan": "random-7@[1, 3, 6, 9, 10, 13, 15]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 8,
+          "plan": "random-8@[0, 2, 5, 6, 8, 10, 13]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 8,
+          "plan": "random-9@[0, 1, 4, 8, 11, 12, 16]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 8,
+          "plan": "random-10@[0, 2, 4, 5, 7, 10, 11]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "fe624bbdc90c0c894a5a898bdcfbffac1ce2ad42129d99375efc6341f714fa17",
+          "pieces": 8,
+          "plan": "random-11@[1, 4, 5, 8, 14, 15, 16]"
+        }
+      ]
+    },
+    {
+      "checks": [
+        {
+          "detail": "0 failed split plans",
+          "name": "split_reconstructs_text",
+          "passed": true
+        },
+        {
+          "detail": "all runs executed",
+          "name": "all_runs_execute",
+          "passed": true
+        },
+        {
+          "detail": "all split plans produced identical normalized events",
+          "name": "chunk_transparent",
+          "passed": true
+        }
+      ],
+      "fixture_id": "responses-plain",
+      "issue_refs": [
+        "deepseek-recipe#28"
+      ],
+      "mode": "chunk_transparent",
+      "notes": "",
+      "passed": true,
+      "protocol": "responses",
+      "runs": [
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 1,
+          "plan": "whole"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@0"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@1"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@2"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@3"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@4"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@5"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@6"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@7"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@8"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@9"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@10"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@11"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@12"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@13"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@14"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@15"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@16"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@17"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@18"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@19"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@20"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@21"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@22"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@23"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@24"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@25"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@26"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@27"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@28"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@29"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@30"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@31"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@32"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@33"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 2,
+          "plan": "two-way@34"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 34,
+          "plan": "char-by-char"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 8,
+          "plan": "random-0@[0, 10, 12, 20, 24, 33, 34]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 8,
+          "plan": "random-1@[0, 7, 14, 25, 29, 30, 32]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 8,
+          "plan": "random-2@[1, 2, 3, 7, 13, 14, 33]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 8,
+          "plan": "random-3@[3, 4, 6, 11, 16, 19, 30]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 8,
+          "plan": "random-4@[3, 5, 7, 11, 16, 23, 34]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 8,
+          "plan": "random-5@[0, 3, 4, 6, 9, 17, 23]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 8,
+          "plan": "random-6@[5, 6, 12, 13, 18, 20, 29]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 8,
+          "plan": "random-7@[0, 5, 6, 13, 20, 24, 27]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 8,
+          "plan": "random-8@[1, 4, 8, 16, 17, 21, 22]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 8,
+          "plan": "random-9@[1, 5, 15, 16, 20, 22, 33]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 8,
+          "plan": "random-10@[5, 11, 16, 17, 23, 32, 33]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "b8814ba3f027efed383518ef00adf615ce02df1fe85a6a4622b87bac5d2cc201",
+          "pieces": 8,
+          "plan": "random-11@[1, 4, 6, 13, 14, 18, 26]"
+        }
+      ]
+    },
+    {
+      "checks": [
+        {
+          "detail": "0 failed split plans",
+          "name": "split_reconstructs_text",
+          "passed": true
+        },
+        {
+          "detail": "all runs executed",
+          "name": "all_runs_execute",
+          "passed": true
+        },
+        {
+          "detail": "all split plans produced identical normalized events",
+          "name": "chunk_transparent",
+          "passed": true
+        }
+      ],
+      "fixture_id": "messages-plain",
+      "issue_refs": [
+        "deepseek-recipe#28"
+      ],
+      "mode": "chunk_transparent",
+      "notes": "",
+      "passed": true,
+      "protocol": "messages",
+      "runs": [
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 1,
+          "plan": "whole"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@0"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@1"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@2"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@3"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@4"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@5"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@6"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@7"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@8"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@9"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@10"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@11"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@12"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@13"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@14"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@15"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@16"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@17"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@18"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@19"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@20"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@21"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@22"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@23"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@24"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@25"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@26"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@27"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@28"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@29"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 2,
+          "plan": "two-way@30"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 30,
+          "plan": "char-by-char"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 8,
+          "plan": "random-0@[0, 12, 17, 18, 25, 27, 29]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 8,
+          "plan": "random-1@[7, 10, 12, 15, 20, 25, 29]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 8,
+          "plan": "random-2@[0, 1, 7, 19, 21, 29, 30]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 8,
+          "plan": "random-3@[1, 2, 3, 13, 14, 18, 20]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 8,
+          "plan": "random-4@[3, 5, 8, 9, 21, 24, 27]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 8,
+          "plan": "random-5@[1, 3, 4, 20, 22, 28, 30]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 8,
+          "plan": "random-6@[1, 5, 8, 11, 23, 25, 29]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 8,
+          "plan": "random-7@[0, 8, 11, 16, 17, 18, 27]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 8,
+          "plan": "random-8@[2, 3, 4, 9, 14, 25, 30]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 8,
+          "plan": "random-9@[3, 6, 12, 18, 20, 27, 28]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 8,
+          "plan": "random-10@[3, 6, 12, 13, 20, 25, 29]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "7308ee754a82884198c897f2ea617381b6e012946eea4d0f0173e76cdb9bfbd4",
+          "pieces": 8,
+          "plan": "random-11@[0, 5, 8, 10, 17, 21, 26]"
+        }
+      ]
+    },
+    {
+      "checks": [
+        {
+          "detail": "0 failed split plans",
+          "name": "split_reconstructs_text",
+          "passed": true
+        },
+        {
+          "detail": "all runs executed",
+          "name": "all_runs_execute",
+          "passed": true
+        },
+        {
+          "detail": "chunk-dependent outputs may differ but must emit events",
+          "name": "contract_output_nonempty",
+          "passed": true
+        }
+      ],
+      "fixture_id": "stop-sequence-contract",
+      "issue_refs": [
+        "deepseek-recipe#28"
+      ],
+      "mode": "chunk_dependent_contract",
+      "notes": "Usage may count the source chunk containing the stop sequence.",
+      "passed": true,
+      "protocol": "chat_completions",
+      "runs": [
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 1,
+          "plan": "whole"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@0"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@1"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@2"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@3"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@4"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@5"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@6"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@7"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@8"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@9"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@10"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@11"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@12"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@13"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 2,
+          "plan": "two-way@14"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 14,
+          "plan": "char-by-char"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 8,
+          "plan": "random-0@[0, 5, 6, 8, 9, 10, 13]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 8,
+          "plan": "random-1@[0, 3, 6, 7, 10, 13, 14]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 8,
+          "plan": "random-2@[0, 3, 9, 10, 11, 12, 14]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 8,
+          "plan": "random-3@[1, 4, 6, 7, 9, 11, 14]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 8,
+          "plan": "random-4@[0, 1, 2, 10, 12, 13, 14]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 8,
+          "plan": "random-5@[0, 2, 4, 5, 11, 13, 14]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 8,
+          "plan": "random-6@[1, 4, 5, 8, 9, 12, 13]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 8,
+          "plan": "random-7@[1, 2, 3, 4, 7, 10, 13]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 8,
+          "plan": "random-8@[1, 3, 6, 9, 10, 12, 13]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 8,
+          "plan": "random-9@[0, 2, 4, 5, 8, 10, 13]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 8,
+          "plan": "random-10@[1, 3, 4, 5, 8, 11, 12]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "c2b81e289aa0665f3d4e81738edc448b0828fad34448a50654e93913874f9e2b",
+          "pieces": 8,
+          "plan": "random-11@[0, 2, 4, 5, 8, 11, 14]"
+        }
+      ]
+    },
+    {
+      "checks": [
+        {
+          "detail": "0 failed split plans",
+          "name": "split_reconstructs_text",
+          "passed": true
+        },
+        {
+          "detail": "all runs executed",
+          "name": "all_runs_execute",
+          "passed": true
+        },
+        {
+          "detail": "chunk-dependent outputs may differ but must emit events",
+          "name": "contract_output_nonempty",
+          "passed": true
+        }
+      ],
+      "fixture_id": "json-mode-contract",
+      "issue_refs": [
+        "deepseek-recipe#10",
+        "deepseek-recipe#14",
+        "deepseek-recipe#28"
+      ],
+      "mode": "chunk_dependent_contract",
+      "notes": "v0.2 defines one space per source chunk for replaced JSON whitespace runs.",
+      "passed": true,
+      "protocol": "chat_completions",
+      "runs": [
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 1,
+          "plan": "whole"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@0"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@1"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@2"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@3"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@4"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@5"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@6"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@7"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@8"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@9"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@10"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@11"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@12"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@13"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@14"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@15"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@16"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 2,
+          "plan": "two-way@17"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 17,
+          "plan": "char-by-char"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 8,
+          "plan": "random-0@[0, 5, 6, 10, 12, 14, 17]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 8,
+          "plan": "random-1@[0, 3, 6, 7, 12, 13, 15]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 8,
+          "plan": "random-2@[1, 3, 6, 7, 12, 16, 17]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 8,
+          "plan": "random-3@[1, 2, 5, 8, 9, 10, 14]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 8,
+          "plan": "random-4@[1, 2, 3, 4, 5, 11, 17]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 8,
+          "plan": "random-5@[0, 1, 2, 8, 11, 13, 15]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 8,
+          "plan": "random-6@[1, 2, 3, 9, 13, 14, 17]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 8,
+          "plan": "random-7@[3, 6, 10, 12, 15, 16, 17]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 8,
+          "plan": "random-8@[0, 4, 5, 8, 10, 13, 15]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 8,
+          "plan": "random-9@[0, 2, 3, 8, 9, 11, 15]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 8,
+          "plan": "random-10@[0, 2, 8, 10, 11, 16, 17]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "ae16ead04a3df085d38a03fa7aadee1e2c9ec621a023d3441c28cdec7e8aa4ed",
+          "pieces": 8,
+          "plan": "random-11@[1, 2, 5, 8, 11, 16, 17]"
+        }
+      ]
+    },
+    {
+      "checks": [
+        {
+          "detail": "0 failed split plans",
+          "name": "split_reconstructs_text",
+          "passed": true
+        },
+        {
+          "detail": "all runs executed",
+          "name": "all_runs_execute",
+          "passed": true
+        },
+        {
+          "detail": "all split plans produced identical normalized events",
+          "name": "chunk_transparent",
+          "passed": true
+        }
+      ],
+      "fixture_id": "empty-chunks",
+      "issue_refs": [
+        "deepseek-recipe#28"
+      ],
+      "mode": "chunk_transparent",
+      "notes": "",
+      "passed": true,
+      "protocol": "chat_completions",
+      "runs": [
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "67263a2a2d0b8758b4a2af7d122e1ef75d5ee08b3205231ace2750e78e68397c",
+          "pieces": 1,
+          "plan": "whole"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "67263a2a2d0b8758b4a2af7d122e1ef75d5ee08b3205231ace2750e78e68397c",
+          "pieces": 2,
+          "plan": "two-way@0"
+        }
+      ]
+    },
+    {
+      "checks": [
+        {
+          "detail": "0 failed split plans",
+          "name": "split_reconstructs_text",
+          "passed": true
+        },
+        {
+          "detail": "all runs executed",
+          "name": "all_runs_execute",
+          "passed": true
+        },
+        {
+          "detail": "U+FFFD is present for every split",
+          "name": "end_of_stream_preserves_replacement_character",
+          "passed": true
+        }
+      ],
+      "fixture_id": "end-of-stream-u-fffd",
+      "issue_refs": [
+        "deepseek-recipe#16",
+        "deepseek-recipe#28"
+      ],
+      "mode": "end_of_stream",
+      "notes": "Text ending in U+FFFD must not remain buffered forever in StreamDecoder.",
+      "passed": true,
+      "protocol": "chat_completions",
+      "runs": [
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 1,
+          "plan": "whole"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 2,
+          "plan": "two-way@0"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 2,
+          "plan": "two-way@1"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 2,
+          "plan": "two-way@2"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 2,
+          "plan": "two-way@3"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 2,
+          "plan": "two-way@4"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 2,
+          "plan": "two-way@5"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 2,
+          "plan": "two-way@6"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 2,
+          "plan": "two-way@7"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 2,
+          "plan": "two-way@8"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 8,
+          "plan": "char-by-char"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 8,
+          "plan": "random-0@[0, 1, 3, 4, 6, 7, 8]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 8,
+          "plan": "random-2@[0, 3, 4, 5, 6, 7, 8]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 8,
+          "plan": "random-3@[0, 1, 4, 5, 6, 7, 8]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 8,
+          "plan": "random-4@[0, 1, 2, 3, 5, 7, 8]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 8,
+          "plan": "random-5@[0, 1, 2, 4, 5, 7, 8]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 8,
+          "plan": "random-6@[0, 1, 2, 4, 6, 7, 8]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 8,
+          "plan": "random-7@[1, 2, 3, 5, 6, 7, 8]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 8,
+          "plan": "random-8@[0, 2, 3, 4, 6, 7, 8]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 8,
+          "plan": "random-9@[1, 2, 3, 4, 5, 6, 8]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 8,
+          "plan": "random-10@[0, 2, 4, 5, 6, 7, 8]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "d1391af9b41015b4d6d2e3704784d6d723cd090786c1604dd4dbe6ba3f4dac09",
+          "pieces": 8,
+          "plan": "random-11@[1, 3, 4, 5, 6, 7, 8]"
+        }
+      ]
+    },
+    {
+      "checks": [
+        {
+          "detail": "0 failed split plans",
+          "name": "split_reconstructs_text",
+          "passed": true
+        },
+        {
+          "detail": "all runs executed",
+          "name": "all_runs_execute",
+          "passed": true
+        },
+        {
+          "detail": "all split plans produced identical normalized events",
+          "name": "chunk_transparent",
+          "passed": true
+        }
+      ],
+      "fixture_id": "long-mixed-text",
+      "issue_refs": [
+        "deepseek-recipe#28"
+      ],
+      "mode": "chunk_transparent",
+      "notes": "",
+      "passed": true,
+      "protocol": "chat_completions",
+      "runs": [
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 1,
+          "plan": "whole"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@0"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@1"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@2"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@3"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@4"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@5"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@6"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@7"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@8"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@9"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@10"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@11"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@12"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@13"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@14"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@15"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@16"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@17"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@18"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@19"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@20"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@21"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@22"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@23"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@24"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@25"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@26"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@27"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@28"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@29"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@30"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@31"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@32"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@33"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@34"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@35"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@36"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@37"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@38"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@39"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 2,
+          "plan": "two-way@40"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 40,
+          "plan": "char-by-char"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 8,
+          "plan": "random-0@[0, 20, 24, 25, 34, 37, 39]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 8,
+          "plan": "random-1@[0, 14, 25, 30, 37, 39, 40]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 8,
+          "plan": "random-2@[1, 3, 7, 26, 29, 37, 39]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 8,
+          "plan": "random-3@[5, 6, 9, 11, 16, 19, 35]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 8,
+          "plan": "random-4@[3, 7, 10, 16, 22, 39, 40]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 8,
+          "plan": "random-5@[0, 6, 17, 23, 33, 35, 37]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 8,
+          "plan": "random-6@[5, 6, 9, 13, 19, 29, 39]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 8,
+          "plan": "random-7@[0, 6, 13, 24, 25, 27, 36]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 8,
+          "plan": "random-8@[1, 4, 10, 16, 17, 21, 35]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 8,
+          "plan": "random-9@[2, 11, 15, 16, 20, 33, 38]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 8,
+          "plan": "random-10@[4, 5, 16, 17, 23, 33, 40]"
+        },
+        {
+          "checks": [],
+          "error": null,
+          "event_digest": "84865d9fae11662531d479cfd94a11fd85b3414fdfabddedae5149147cd3acd4",
+          "pieces": 8,
+          "plan": "random-11@[3, 13, 14, 18, 35, 38, 40]"
+        }
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "seed": 20261021,
+  "summary": {
+    "failures": 0,
+    "passed": true,
+    "runs": 265,
+    "scenarios": 8
+  }
+}

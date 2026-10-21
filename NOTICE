@@ -1,0 +1,7 @@
+DeepSeek Recipe Conformance Kit
+Copyright 2026 contributors
+
+This independent project tests protocol conversion and streaming behavior of
+the publicly available deepseek-recipe project. It is not affiliated with,
+sponsored by, or endorsed by DeepSeek-AI. deepseek-recipe remains subject to
+its own copyright and license notices.
