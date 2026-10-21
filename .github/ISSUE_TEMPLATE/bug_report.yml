@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a reproducible deepseek-recipe conformance failure
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: deepseek-recipe version
+      placeholder: 0.2.0
+    validations:
+      required: true
+  - type: textarea
+    id: fixture
+    attributes:
+      label: Minimal fixture or request
+      description: Remove secrets and private prompts before posting.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and report output
+    validations:
+      required: true

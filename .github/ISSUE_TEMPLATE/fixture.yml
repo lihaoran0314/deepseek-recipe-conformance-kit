@@ -1,0 +1,21 @@
+name: Fixture proposal
+description: Propose a new conformance scenario
+title: "[fixture] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Scenario
+    validations:
+      required: true
+  - type: textarea
+    id: invariant
+    attributes:
+      label: Invariant or contractual behavior
+    validations:
+      required: true
+  - type: input
+    id: upstream
+    attributes:
+      label: Related upstream issue or PR
